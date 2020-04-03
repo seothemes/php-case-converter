@@ -17,7 +17,7 @@
  *
  * @return string
  */
-function mai_convert_case( $string, $case = 'snake' ) {
+function convert_case( $string, $case = 'snake' ) {
 	$delimiters = 'sentence' === $case ? [ ' ', '-', '_' ] : [ ' ', '-', '_', '.' ];
 	$lower      = trim( str_replace( $delimiters, $delimiters[0], strtolower( $string ) ), $delimiters[0] );
 	$upper      = trim( ucwords( $lower ), $delimiters[0] );
