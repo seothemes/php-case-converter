@@ -1,0 +1,16 @@
+{
+  "name": "seothemes/php-case-converter",
+  "description": "Simple PHP function that takes a string and converts it to another naming convention.",
+  "type": "library",
+  "license": "gpl-2.0-or-later",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "files" : [
+      "functions.php"
+    ]
+  }
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+}
