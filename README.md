@@ -52,8 +52,7 @@ function convert_case( $string, $case = 'snake' ) {
 Copy and paste the helper function into your project, then use it:
 
 ```php
-// Outputs: thisIsAnExampleString
-echo convert_case( 'This is_an example-string.', 'camel' );
+echo convert_case( 'This is_an example-string.', 'camel' ); // Outputs: thisIsAnExampleString
 ```
 
 
