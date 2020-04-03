@@ -11,6 +11,4 @@
       "functions.php"
     ]
   }
-  "minimum-stability": "dev",
-  "prefer-stable": true,
 }
